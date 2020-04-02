@@ -6,6 +6,10 @@ wp2_pass = <wlan-password>
 ## ftp access
 #from ftp import ftpserver
 
+# Garbage collector
+import gc
+gc.collect()
+
 def do_connect():
     import network
     sta_if = network.WLAN(network.STA_IF)
