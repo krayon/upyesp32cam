@@ -4,6 +4,10 @@ import network
 import utime
 import ntptime
 
+# Garbage collector
+import gc
+gc.collect()
+
 ## ftp access
 #from ftp import ftpserver
 
